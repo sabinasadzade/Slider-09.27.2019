@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+#slider .upper {
+  height: 60vh;
+  position: relative; }
+  .slider h1,.slider p{
+
+  }
+  #slider .upper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  #slider .upper .leftIcon, #slider .upper .rightIcon {
+    position: absolute;
+    top: 50%;
+    font-size: 3em;
+    color: white;
+    transform: translateY(-50%);
+    cursor: pointer; }
+  #slider .upper .leftIcon {
+    left: 7%; }
+  #slider .upper .rightIcon {
+    right: 7%; }
+#slider .lower {
+  height: 10vh; }
+  #slider .lower ul {
+    display: flex; }
+    #slider .lower ul li {
+      list-style-type: none; }
+      #slider .lower ul li.active img {
+        border-color: green; }
+    #slider .lower ul img {
+      width: 100%;
+      height: 100px;
+      object-fit: cover;
+      padding: 2px;
+      border: 3px solid #eee;
+      transition: all 0.3s linear; }
+      #slider .lower ul img:hover {
+        border-color: green; }
+
+/*# sourceMappingURL=style.css.map */
